@@ -2,6 +2,7 @@ import React from 'react';
 import Todo from './Todo';
 
 const TodoList = state => {
+  console.log(state);
   return (
     <ul>
       {state.todos.map(todo => (

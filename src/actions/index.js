@@ -10,3 +10,8 @@ export const completeTodo = id => ({
   type: 'COMPLETE_TODO',
   id,
 });
+
+export const filterTodo = filterType => ({
+  type: 'FILTER_TODO',
+  filter: filterType,
+});
